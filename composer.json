@@ -1,0 +1,28 @@
+{
+    "name": "ruben/msgraphclient-php",
+    "description": "Client from microsoft graph",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rmarin21",
+            "email": "rmarin@brigantia.es"
+        }
+    ],
+    "require": {
+        "microsoft/microsoft-graph": "^2.29",
+        "microsoft/microsoft-graph-core": "^2.3"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        },
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "tbachert/spi": true
+        }
+    }
+}
